@@ -34,9 +34,11 @@ public abstract class BaseBuilding {
     }
 
     public String toString() {
+        System.out.println("----------------------------------------------------------------------------------------------------------");
 
-        return name + " год:" + year + " материал:" + material +
-                " этажей:" + floors + " площадь:" + area;
+        return ("Тип строения: "+name + "   Год постройки: " + year + "   Материал стен: " + material +
+                "   Количество этажей: " + floors + "   Площадь: " + area);
+
     }
 }
 
