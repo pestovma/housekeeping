@@ -2,6 +2,8 @@ package buildings;
 
 import enums.WallMaterial;
 
+
+
 public abstract class BaseBuilding {
     protected String name;
     protected int year;

@@ -8,7 +8,7 @@ public class RecreationalEquipment extends Technique {
 
     public void use() {
 
-        System.out.println("Используется для отдыха");
+        System.out.println(name+" используется для отдыха");
     }
 
 }

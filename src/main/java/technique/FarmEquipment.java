@@ -8,7 +8,7 @@ public class FarmEquipment extends Technique{
 
     public void use() {
 
-        System.out.println("Используется для хозяйственных работ");
+        System.out.println(name+" используется для хозяйственных работ");
     }
 
 }

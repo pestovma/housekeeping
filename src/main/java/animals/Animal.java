@@ -2,11 +2,12 @@ package animals;
 
 import enums.Gender;
 
-public abstract class Animal {
+public class Animal {
     protected String type;
     protected String name;
     protected Gender gender;
     protected int age;
+    protected int q;
 
     public Animal(String type, String name, Gender gender, int age) {
 
@@ -30,6 +31,10 @@ public abstract class Animal {
 
         System.out.println(type + " " + name + " выгулян");
     }
+    public void nothing() {
+
+        System.out.println(type + " "  + " не найдено");
+    }
 
     public String getType() {
 
@@ -44,6 +49,13 @@ public abstract class Animal {
     public String toString() {
 
         return type + " имя:" + name + " возраст:" + age;
+    }
+    public static void animalType(){
+        System.out.println("\nВыбор вида животного");
+        System.out.println("-----------------------");
+        System.out.println("1 Козы");
+        System.out.println("2 Курицы");
+        System.out.println("0 Назад");
     }
 
 }
